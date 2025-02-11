@@ -1,0 +1,57 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1b1c30;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: aquamarine;
+}
+#login {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.email input {
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: #2a2b38;
+    color: rgb(255, 255, 255);
+}
+.senha input {
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: #2a2b38;
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+}
+.entrar input{
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+    background-color: #77c97b;
+    color: #1b1c30;
+    transition: background-color 0.3s ease; /* transição suave */
+}
+.entrar input:hover {
+    background-color: #4d9b57; /* verde escuro quando o mouse passa sobre o botão */
+}
+input ::placeholder {
+    color: #8d8e99;
+}
+.caixa {
+    margin-top: 65px;
+}
+.caixa img {
+    width: 185px;
+}
